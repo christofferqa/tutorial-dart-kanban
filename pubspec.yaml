@@ -7,5 +7,8 @@ environment:
 dependencies:
   browser: any
   dart_to_js_script_rewriter: any
+dev_dependencies:
+  runtime:
+    path: ../../../web_runtime
 transformers:
 - dart_to_js_script_rewriter
